@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WebScript v='30205'>
+	<Variables>
+	</Variables>
+	<nextScriptId>17</nextScriptId>
+	<Object>null</Object>
+	<dataSources>
+	</dataSources>
+	<Script v='3'>
+		<ver>14</ver>
+		<id>1</id>
+		<Summary v='3'>
+			<played>2</played>
+			<succeeded>2</succeeded>
+			<maxResponseTime>195</maxResponseTime>
+			<averageResponseTime>161</averageResponseTime>
+		</Summary>
+		<childCount>1</childCount>
+		<ChildItems>
+			<SuiteItem v='1'>
+				<ver>14</ver>
+				<id>4</id>
+				<Summary v='3'>
+					<played>2</played>
+					<succeeded>2</succeeded>
+					<maxResponseTime>195</maxResponseTime>
+					<averageResponseTime>161</averageResponseTime>
+				</Summary>
+				<childCount>1</childCount>
+				<ChildItems>
+					<TestItem v='3'>
+						<ver>14</ver>
+						<id>3</id>
+						<Summary v='3'>
+							<played>2</played>
+							<succeeded>2</succeeded>
+							<maxResponseTime>195</maxResponseTime>
+							<averageResponseTime>161</averageResponseTime>
+						</Summary>
+						<childCount>1</childCount>
+						<ChildItems>
+							<Step v='4'>
+								<ver>14</ver>
+								<id>2</id>
+								<Summary v='3'>
+									<played>2</played>
+									<succeeded>2</succeeded>
+									<maxResponseTime>195</maxResponseTime>
+									<averageResponseTime>161</averageResponseTime>
+								</Summary>
+								<childCount>2</childCount>
+								<ChildItems>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>5</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>195</maxResponseTime>
+											<averageResponseTime>195</averageResponseTime>
+										</Summary>
+										<childCount>1</childCount>
+										<ChildItems>
+											<ResponsesItem v='4'>
+												<ver>14</ver>
+												<id>7</id>
+												<Summary v='3'>
+													<played>1</played>
+													<succeeded>1</succeeded>
+													<maxResponseTime>195</maxResponseTime>
+													<averageResponseTime>195</averageResponseTime>
+												</Summary>
+												<childCount>1</childCount>
+												<ChildItems>
+													<Response v='3'>
+														<ver>14</ver>
+														<id>6</id>
+														<Summary v='3'>
+															<played>1</played>
+															<succeeded>1</succeeded>
+															<maxResponseTime>195</maxResponseTime>
+															<averageResponseTime>195</averageResponseTime>
+														</Summary>
+														<timeMs>195</timeMs>
+														<size>5149</size>
+														<encodedContent>false</encodedContent>
+														<content>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+  &lt;head&gt;
+
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+    &lt;title&gt;DodgyCinemas&lt;/title&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/jpg&quot; href=&quot;dodgy.jpg&quot; /&gt;
+
+    &lt;!-- Bootstrap core CSS --&gt;
+    &lt;link href=&quot;vendor/bootstrap/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;!-- Custom styles for this template --&gt;
+    &lt;link href=&quot;css/logo-nav.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;style&gt;
+
+
+ &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css&quot;&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  &lt;/style&gt;
+
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;!-- Navigation --&gt;
+    &lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-dark fixed-top&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+       
+        &lt;a class=&quot;navbar-brand&quot; href=&quot;index.html&quot;&gt;
+          &lt;img src=&quot;dodgy.jpg&quot; width=&quot;150&quot; height=&quot;70&quot; alt=&quot;&quot;&gt;
+        &lt;/a&gt;
+        
+        
+        &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarResponsive&quot; aria-controls=&quot;navbarResponsive&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+          &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarResponsive&quot;&gt;
+          &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;
+            &lt;li class=&quot;nav-item active&quot;&gt;
+              
+            &lt;/li&gt;
+           &lt;li&gt;
+
+ &lt;div class=&quot;dropdown show&quot;&gt;
+  &lt;a class=&quot;btn btn-secondary dropdown-toggle&quot; href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; &gt;
+    Listings
+  &lt;/a&gt;
+
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;ListingGallery.html&quot;&gt;Listing Gallery&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;NewReleases.html&quot;&gt;New Releases&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;TicketBooking.html&quot;&gt;Ticket Booking&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Payments.html&quot;&gt;Payments&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt; 
+            
+           
+    &lt;li&gt;
+
+ &lt;div class=&quot;dropdown show&quot;&gt;
+  &lt;a class=&quot;btn btn-secondary dropdown-toggle&quot; href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; &gt;
+    Accessibility
+  &lt;/a&gt;
+
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Classifications.html&quot;&gt;Classifications&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Screens.html&quot;&gt;Screens&lt;/a&gt;
+    
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+ &lt;li&gt;
+
+ &lt;div class=&quot;dropdown show&quot;&gt;
+  &lt;a class=&quot;btn btn-secondary dropdown-toggle&quot; href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; &gt;
+    About Us
+  &lt;/a&gt;
+
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Contact.html&quot;&gt;Contact&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;GettingHere.html&quot;&gt;Getting Here&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;PlacestoGo.html&quot;&gt;Places to go&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;!-- Page Content --&gt;
+    
+    &lt;!-- /.container --&gt;
+
+&lt;div id=&quot;demo&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+
+  &lt;!-- Indicators --&gt;
+  &lt;ul class=&quot;carousel-indicators&quot;&gt;
+    &lt;li data-target=&quot;#demo&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+    &lt;li data-target=&quot;#demo&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+    &lt;li data-target=&quot;#demo&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  
+  &lt;!-- The slideshow --&gt;
+  &lt;div class=&quot;carousel-inner&quot;&gt;
+    &lt;div class=&quot;carousel-item active&quot;&gt;
+      &lt;img src=&quot;deadpool.jpg&quot; alt=&quot;Los Angeles&quot; width=&quot;1500&quot; height=&quot;500&quot;&gt;
+      &lt;div class=&quot;carousel-caption&quot;&gt;
+        &lt;h3&gt;Deadpool 2&lt;/h3&gt;
+        &lt;p&gt;link&lt;/p&gt;
+      &lt;/div&gt;  
+
+    &lt;/div&gt;
+    &lt;div class=&quot;carousel-item&quot;&gt;
+      &lt;img src=&quot;avengers.jpg&quot; alt=&quot;Chicago&quot; width=&quot;1500&quot; height=&quot;500&quot;&gt;
+
+&lt;div class=&quot;carousel-caption&quot;&gt;
+        &lt;h3&gt;Avengers&lt;/h3&gt;
+        &lt;p&gt;link&lt;/p&gt;
+      &lt;/div&gt; 
+
+    &lt;/div&gt;
+    &lt;div class=&quot;carousel-item&quot;&gt;
+      &lt;img src=&quot;giphy.gif&quot; alt=&quot;New York&quot; width=&quot;1500&quot; height=&quot;500&quot;&gt;
+
+&lt;div class=&quot;carousel-caption&quot;&gt;
+        &lt;h3&gt;Gotta have me my&lt;/h3&gt;
+        &lt;p&gt;BandH&lt;/p&gt;
+      &lt;/div&gt; 
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!-- Left and right controls --&gt;
+  &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#demo&quot; data-slide=&quot;prev&quot;&gt;
+    &lt;span class=&quot;carousel-control-prev-icon&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a class=&quot;carousel-control-next&quot; href=&quot;#demo&quot; data-slide=&quot;next&quot;&gt;
+    &lt;span class=&quot;carousel-control-next-icon&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+      &lt;h1 class=&quot;mt-5&quot;&gt;Welcome to the Dodgy Cinema&lt;/h1&gt;
+      &lt;p&gt;Possibly the best cinema in the world.&lt;/p&gt;
+    &lt;/div&gt;
+
+
+
+
+
+    &lt;!-- Bootstrap core JavaScript --&gt;
+    &lt;script src=&quot;vendor/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;vendor/bootstrap/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+</content>
+														<totalSize>5149</totalSize>
+														<timeStamp>2018-05-11 14:33:57</timeStamp>
+														<logContent/>
+													</Response>
+												</ChildItems>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+											</ResponsesItem>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host/>
+										<path>C:/Users/pc/Downloads/QACinema/index.html</path>
+										<protocol>file</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: file:///C:/Program%20Files%20(x86)/Badboy/html/start.html
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>windows-1252</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>14</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>127</maxResponseTime>
+											<averageResponseTime>127</averageResponseTime>
+										</Summary>
+										<childCount>1</childCount>
+										<ChildItems>
+											<ResponsesItem v='4'>
+												<ver>14</ver>
+												<id>16</id>
+												<Summary v='3'>
+													<played>1</played>
+													<succeeded>1</succeeded>
+													<maxResponseTime>127</maxResponseTime>
+													<averageResponseTime>127</averageResponseTime>
+												</Summary>
+												<childCount>1</childCount>
+												<ChildItems>
+													<Response v='3'>
+														<ver>14</ver>
+														<id>15</id>
+														<Summary v='3'>
+															<played>1</played>
+															<succeeded>1</succeeded>
+															<maxResponseTime>127</maxResponseTime>
+															<averageResponseTime>127</averageResponseTime>
+														</Summary>
+														<timeMs>127</timeMs>
+														<size>3421</size>
+														<encodedContent>false</encodedContent>
+														<content>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+  &lt;head&gt;
+
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+    &lt;title&gt;DodgyCinemas&lt;/title&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/jpg&quot; href=&quot;dodgy.jpg&quot; /&gt;
+
+    &lt;!-- Bootstrap core CSS --&gt;
+    &lt;link href=&quot;vendor/bootstrap/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;!-- Custom styles for this template --&gt;
+    &lt;link href=&quot;css/logo-nav.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;!-- Navigation --&gt;
+    &lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-dark fixed-top&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+       
+        &lt;a class=&quot;navbar-brand&quot; href=&quot;index.html&quot;&gt;
+          &lt;img src=&quot;dodgy.jpg&quot; width=&quot;150&quot; height=&quot;70&quot; alt=&quot;&quot;&gt;
+        &lt;/a&gt;
+       
+        
+        &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarResponsive&quot; aria-controls=&quot;navbarResponsive&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+          &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarResponsive&quot;&gt;
+          &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;
+            &lt;li class=&quot;nav-item active&quot;&gt;
+              
+            &lt;/li&gt;
+           &lt;li&gt;
+
+ &lt;div class=&quot;dropdown show&quot;&gt;
+  &lt;a class=&quot;btn btn-secondary dropdown-toggle&quot; href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; &gt;
+    Listings
+  &lt;/a&gt;
+
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;ListingGallery.html&quot;&gt;Listing Gallery&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;NewReleases.html&quot;&gt;New Releases&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;TicketBookings.html&quot;&gt;Ticket Booking&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Payment.html&quot;&gt;Payments&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt; 
+            
+           
+    &lt;li&gt;
+
+ &lt;div class=&quot;dropdown show&quot;&gt;
+  &lt;a class=&quot;btn btn-secondary dropdown-toggle&quot; href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; &gt;
+    Accessibility
+  &lt;/a&gt;
+
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Classifications.html&quot;&gt;Classifications&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Screens.html&quot;&gt;Screens&lt;/a&gt;
+    
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+ &lt;li&gt;
+
+ &lt;div class=&quot;dropdown show&quot;&gt;
+  &lt;a class=&quot;btn btn-secondary dropdown-toggle&quot; href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; &gt;
+    About Us
+  &lt;/a&gt;
+
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;Contact.html&quot;&gt;Contact&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;GettingHere.html&quot;&gt;Getting Here&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;PlacestoGo.html&quot;&gt;Places to go&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/li&gt;
+
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;!-- Page Content --&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;h1 class=&quot;mt-5&quot;&gt;Welcome to the Dodgy Cinema&lt;/h1&gt;
+      &lt;p&gt;Possibly the best cinema in the world.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;!-- /.container --&gt;
+
+    &lt;!-- Bootstrap core JavaScript --&gt;
+    &lt;script src=&quot;vendor/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;vendor/bootstrap/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+</content>
+														<totalSize>3421</totalSize>
+														<timeStamp>2018-05-11 14:34:07</timeStamp>
+														<logContent/>
+													</Response>
+												</ChildItems>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+											</ResponsesItem>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host/>
+										<path>C:/Users/pc/Downloads/QACinema/Contact.html</path>
+										<protocol>file</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: file:///C:/Users/pc/Downloads/QACinema/index.html
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+								</ChildItems>
+								<timeoutEnabled>false</timeoutEnabled>
+								<Object>null</Object>
+								<targetWindow/>
+								<itemName/>
+								<documentation/>
+								<waitForPageToLoad>false</waitForPageToLoad>
+								<sourceLocation/>
+								<recordResponses>true</recordResponses>
+								<quiescenceTimeMs>500</quiescenceTimeMs>
+								<disabled>false</disabled>
+								<ignoreErrors>false</ignoreErrors>
+								<errorFilter/>
+								<Object>null</Object>
+								<name>Step 1</name>
+								<repetitions>1</repetitions>
+								<repeatType>1</repeatType>
+								<repeatVariable/>
+								<incrementAutomatically>true</incrementAutomatically>
+								<incrementAll>true</incrementAll>
+								<expanded>1</expanded>
+							</Step>
+						</ChildItems>
+						<timeoutEnabled>false</timeoutEnabled>
+						<Object>null</Object>
+						<targetWindow/>
+						<itemName/>
+						<documentation/>
+						<waitForPageToLoad>false</waitForPageToLoad>
+						<sourceLocation/>
+						<recordResponses>true</recordResponses>
+						<quiescenceTimeMs>500</quiescenceTimeMs>
+						<disabled>false</disabled>
+						<ignoreErrors>false</ignoreErrors>
+						<errorFilter/>
+						<Object>null</Object>
+						<title>Test 1</title>
+						<template/>
+						<expanded>1</expanded>
+					</TestItem>
+				</ChildItems>
+				<timeoutEnabled>false</timeoutEnabled>
+				<Object>null</Object>
+				<targetWindow/>
+				<itemName>Test Suite 1</itemName>
+				<documentation/>
+				<waitForPageToLoad>false</waitForPageToLoad>
+				<sourceLocation/>
+				<recordResponses>true</recordResponses>
+				<quiescenceTimeMs>500</quiescenceTimeMs>
+				<disabled>false</disabled>
+				<ignoreErrors>false</ignoreErrors>
+				<errorFilter/>
+				<Object>null</Object>
+				<expanded>1</expanded>
+			</SuiteItem>
+		</ChildItems>
+		<defaultHeaders/>
+		<itemName>Script.bx</itemName>
+		<documentation/>
+	</Script>
+</WebScript>
